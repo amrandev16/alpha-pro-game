@@ -103,7 +103,7 @@ hideElementById('final-score');
 function overTheGame(){
   hideElementById('play-ground');
   showElementById('final-score');
-  // update score 
+  // update score ##############################
   // 1 get the finel score 
   const lastScore = getTextElementValueById('current-score');
   setTextElementById('game-score',lastScore);

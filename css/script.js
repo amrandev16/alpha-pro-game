@@ -96,13 +96,13 @@ function play(){
   // reset 
 setTextElementById('current-life',5);
 setTextElementById('current-score',0);
+hideElementById('final-score');
   countinueGame();
 }
 
 function overTheGame(){
   hideElementById('play-ground');
   showElementById('final-score');
-  
   // update score 
   // 1 get the finel score 
   const lastScore = getTextElementValueById('current-score');
